@@ -1,0 +1,47 @@
+
+- Campos faltantes en el archivo
+- cvs de prueba
+
+
+- lombok.jar
+
+
+
+
+- Ejecucion / Modo de operacion
+
+	java -jar target/batchOriginacionETL.jar
+	
+		01_Originacion_311216_0001.csv
+	
+	*** Numero de archivo
+		- N archivos x dia
+		- Varios consecutivo(s) x empresa
+	
+	** Opciones de ejecucion
+		- Ejecucion de completa de archivos
+		- Ejecucion parcial de archivos
+	
+	** Parametros de ejecucion
+		
+		- Ord por fecha de OS
+
+		- Solo procesar los esten en un RANGO
+		
+		
+		*******************************************
+		
+			N/A
+			- d: Dia/ Mes/ Año			OPCIONAL
+											- Si no se especifica se toma de dia anterior
+			
+			- ee: Id de empresa			OPCIONAL
+			
+			- n: Consecutivo			OPCIONAL
+											- Si no se envia se procesan todos los archivos del dia
+											- Si se envia se procesa el archivo especifico
+											
+		******************************************
+		
+		
+		
